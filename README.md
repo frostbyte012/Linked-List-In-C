@@ -1,0 +1,1 @@
+This is a general Link List Program to help student learn link List in Data Structures and algorithm in C.
