@@ -1,6 +1,6 @@
-This is a general Link List Program to help student learn link List in Data Structures and algorithm in C.
+<h1>This is a general Link List Program to help student learn link List in Data Structures and algorithm in C.</h1>
 
-Linked List
+<h2>Linked List</h1>
 Linked List can be defined as collection of objects called nodes that are randomly stored in the memory.
 A node contains two fields i.e. data stored at that particular address and the pointer which contains the address of the next node in the memory.
 The last node of the list contains pointer to the null.
