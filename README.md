@@ -4,11 +4,10 @@
 Linked List can be defined as collection of objects called nodes that are randomly stored in the memory.
 A node contains two fields i.e. data stored at that particular address and the pointer which contains the address of the next node in the memory.
 The last node of the list contains pointer to the null.
-DS Linked List
 
 <img src="https://static.javatpoint.com/ds/images/linked-list.png" height="200" width="1000">
 
-Uses of Linked List
+<h1>Uses of Linked List</h1>
 The list is not required to be contiguously present in the memory. The node can reside any where in the memory and linked together to make a list. This achieves optimized utilization of space.
 list size is limited to the memory size and doesn't need to be declared in advance.
 Empty node can not be present in the linked list.
@@ -16,7 +15,7 @@ We can store values of primitive types or objects in the singly linked list.
 Why use linked list over array?
 Till now, we were using array data structure to organize the group of elements that are to be stored individually in the memory. However, Array has several advantages and disadvantages which must be known in order to decide the data structure which will be used throughout the program.
 
-Array contains following limitations:
+<h1>Array contains following limitations:</h2>
 
 The size of array must be known in advance before using it in the program.
 Increasing size of the array is a time taking process. It is almost impossible to expand the size of the array at run time.
@@ -38,7 +37,7 @@ Consider an example where the marks obtained by the student in three subjects ar
 
 In the above figure, the arrow represents the links. The data part of every node contains the marks obtained by the student in the different subject. The last node in the list is identified by the null pointer which is present in the address part of the last node. We can have as many elements we require, in the data part of the list.
 
-Complexity
+<h1>Complexity</h1>
 Data Structure	Time Complexity	Space Compleity
 Average	Worst	Worst
 Access	Search	Insertion	Deletion	Access	Search	Insertion	Deletion	
@@ -46,7 +45,7 @@ Singly Linked List	θ(n)	θ(n)	θ(1)	θ(1)	O(n)	O(n)	O(1)	O(1)	O(n)
 Operations on Singly Linked List
 There are various operations which can be performed on singly linked list. A list of all such operations is given below.
 
-Node Creation
+<h1>Node Creation</h1>
 
 struct node   
 {  
@@ -58,7 +57,7 @@ struct node *head, *ptr;
 ptr = (struct node *)malloc(sizeof(struct node *));  
 
 
-Insertion
+<h1>Insertion</h1>
 
 The insertion into a singly linked list can be performed at different positions. Based on the position of the new node being inserted, the insertion is categorized into the following categories.
 
@@ -72,14 +71,14 @@ It involves insertion after the specified node of the linked list. We need to sk
 Deletion and Traversing
 The Deletion of a node from a singly linked list can be performed at different positions. Based on the position of the node being deleted, the operation is categorized into the following categories.
 
-SN	Operation	Description
-1	Deletion at beginning
+
+<h3>1	Deletion at beginning</h3>
 It involves deletion of a node from the beginning of the list. This is the simplest operation among all. It just need a few adjustments in the node pointers.
-2	Deletion at the end of the list
+<h3>2	Deletion at the end of the list</h3>
 It involves deleting the last node of the list. The list can either be empty or full. Different logic is implemented for the different scenarios.
-3	Deletion after specified node
+<h3>3	Deletion after specified node</h3>
 It involves deleting the node after the specified node in the list. we need to skip the desired number of nodes to reach the node after which the node will be deleted. This requires traversing through the list.
-4	Traversing
+<h3>4	Traversing</h3>
 In traversing, we simply visit each node of the list at least once in order to perform some specific operation on it, for example, printing data part of each node present in the list.
-5	Searching
+<h3>5	Searching</h3>
 In searching, we match each element of the list with the given element. If the element is found on any of the location then location of that element is returned otherwise null is returned. .
