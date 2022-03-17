@@ -6,7 +6,7 @@ A node contains two fields i.e. data stored at that particular address and the p
 The last node of the list contains pointer to the null.
 DS Linked List
 
-<img src="https://static.javatpoint.com/ds/images/linked-list.png" height="200" width="700">
+<img src="https://static.javatpoint.com/ds/images/linked-list.png" height="200" width="1000">
 
 Uses of Linked List
 The list is not required to be contiguously present in the memory. The node can reside any where in the memory and linked together to make a list. This achieves optimized utilization of space.
@@ -33,7 +33,7 @@ One way chain or singly linked list can be traversed only in one direction. In o
 
 Consider an example where the marks obtained by the student in three subjects are stored in a linked list as shown in the figure.
 
-<img src="https://static.javatpoint.com/ds/images/singly-link-list.png" height="200" width="700">
+<img src="https://static.javatpoint.com/ds/images/singly-link-list.png" height="200" width="1000">
 
 
 In the above figure, the arrow represents the links. The data part of every node contains the marks obtained by the student in the different subject. The last node in the list is identified by the null pointer which is present in the address part of the last node. We can have as many elements we require, in the data part of the list.
